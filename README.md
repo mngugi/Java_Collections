@@ -234,7 +234,7 @@ public class Ducky extends JApplet
 ```
 This is a Java applet program that displays the message "Hello World" on the screen. The program is a subclass of the Applet class, which is a built-in Java class for creating applets. The program overrides the paint() method of the Applet class, which is called automatically when the applet is run. Inside the paint() method, the program uses the drawString() method of the Graphics class to display the message "Hello World" at the coordinates (20, 20) on the screen. The program extends JApplet class, JApplet is a class from javax.swing package that you can use to create an Applet, but it is not the only way to create an Applet.
 
-###classes.java
+### classes.java
 **Code:**
 ```java
 public class Main{
