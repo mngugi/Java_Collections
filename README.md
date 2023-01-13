@@ -1,5 +1,3 @@
-# Learn-Java-
-
 ## Welcome to the Learn-Java- wiki!
 ### Arr.java
 **Code:**
@@ -19,10 +17,7 @@ public class Main {
         
         System.out.println(Arrays.toString(nums));
         
-        
-        }
-
-
+                }
 }
 
 ```
@@ -66,11 +61,8 @@ public class Main {
         nums.removeAt(2);
         
         System.out.println(nums.indexOf(400));
-        
-        
+                
         }
-
-
 }
 
 ```
@@ -121,7 +113,6 @@ public class Array {
               System.out.println(items[i]);
         
         }
-
 }
 ```
 A basic implementation of an array class in Java. It has a private int[] variable named "items" which will be used to store the elements of the array, and a private int variable named "count" which will keep track of the number of elements in the array.
@@ -140,3 +131,194 @@ There is an issue with the print method though. The for loop is using "in" inste
         }
 ```
 Also, to make this class more usable, you may want to add methods to insert and remove elements from the array, and also a way to access the elements by index.
+### Compute_CircleArea.java
+**Code:**
+```Java
+public class Main {
+   public static void main(String[] args){
+   
+   double r;
+   double Area;
+   double pi;
+   
+   r = 23;
+   pi = 3.14159;
+   Area = r*r * pi;
+   
+   System.out.println("Area of a Circle is\n" +Area);
+   
+   }
+
+}
+```
+This is a Java program that calculates the area of a circle with a radius of 23 and outputs the result to the console. The variable "r" is used to store the radius of the circle, "pi" is used to store the value of pi (3.14159 in this case), and "Area" is used to store the calculated area of the circle (r*r * pi). The program then uses the "System.out.println" method to output the message "Area of a Circle is" followed by the calculated area of the circle.
+
+---
+
+### Compute_CircleArea_input.java
+**Code:**
+```Java
+import java.util.Scanner;
+
+public class Main {
+   public static void main(String[] args){
+   
+   Scanner input = new Scanner(System.in);
+   double r;
+   double Area;
+   double pi;
+   
+   
+   pi = 3.14159;
+   
+   System.out.println("Enter radius: ");
+   r = input.nextDouble();
+   Area = r*r * pi;
+   
+   System.out.println("Area of a Circle is\n" +Area);
+   
+   }
+
+}
+```
+This Java program calculates the area of a circle based on user input. The program uses the Scanner class to take input from the user. The variable "r" is used to store the radius of the circle entered by the user, "pi" is used to store the value of pi (3.14159 in this case), and "Area" is used to store the calculated area of the circle (r*r * pi). The program first prompts the user to "Enter radius: " and then assigns the value entered by the user to the variable "r" using the nextDouble() method of the Scanner class. Then it calculates the area of the circle and prints the message "Area of a Circle is" followed by the calculated area of the circle using the "System.out.println" method.
+
+---
+### Compute_mean_input.java
+**Code:**
+
+```Java
+import java.util.Scanner;
+public class Main {
+   public static void main(String[] args){
+   Scanner input = new Scanner(System.in);
+   
+    int num1 = input.nextInt();
+    int num2 = input.nextInt();
+    int num3 = input.nextInt();
+    
+    int mean = (num1+num2+num3)/3;
+    System.out.println("The mean value is:  " +mean);
+    
+        
+   }
+
+}
+
+```
+This Java program calculates the mean of three integers entered by the user. The program uses the Scanner class to take input from the user. It declares three variables num1, num2, num3 to store the integers entered by the user. It then calculates the mean of the three integers by adding the three integers and dividing by 3. The result is stored in the variable "mean". The program then uses the "System.out.println" method to output the message "The mean value is: " followed by the calculated mean value.
+
+---
+### applets.java
+**Code:**
+
+```Java
+// A Hello World Applet
+// Save file as HelloWorld.java
+
+import java.applet.Applet;
+import java.awt.Graphics;
+
+
+public class Ducky extends JApplet
+{
+	// Overriding paint() method
+	@Override
+	public void paint(Graphics g)
+	{
+		g.drawString("Hello World", 20, 20);
+	}
+	 
+}
+
+```
+This is a Java applet program that displays the message "Hello World" on the screen. The program is a subclass of the Applet class, which is a built-in Java class for creating applets. The program overrides the paint() method of the Applet class, which is called automatically when the applet is run. Inside the paint() method, the program uses the drawString() method of the Graphics class to display the message "Hello World" at the coordinates (20, 20) on the screen. The program extends JApplet class, JApplet is a class from javax.swing package that you can use to create an Applet, but it is not the only way to create an Applet.
+
+###classes.java
+**Code:**
+```java
+public class Main{
+ int x = 100;
+
+   public static void main(String[] args){
+   
+     
+    Main class_object = new Main();
+    Main class_object_2 = new Main();
+    class_object.x = 452;
+    System.out.println(class_object.x);
+    System.out.println(class_object.x);
+   
+   }
+
+}
+
+```
+This is a Java program that creates two instances of the Main class and assigns different values to the variable 'x' of each instance. The variable x is declared as an instance variable of the Main class and is assigned an initial value of 100.
+
+In the main method, two instances of the Main class are created using the new keyword, one is named 'class_object' and the other is named 'class_object_2'. The value of the x variable of the 'class_object' instance is then changed to 452.
+
+Then the program uses the "System.out.println" method to output the value of the x variable of the 'class_object' instance, which is 452. And it prints the same value again.
+
+The value of the x variable of the 'class_object_2' instance is not changed and remains as the default value of 100.
+
+It's important to note that, in this case, the x variable is an instance variable, so each object has its own copy of the variable. Therefore, changing the value of x for one object will not affect the value of x for the other object.
+
+---
+
+### classes.java
+**Code:**
+```java
+public class Main {
+   String fruit = "Apples";
+   String vegetable = "Carrots";
+   
+   int num1 = 60;
+   int num2 = 45;
+   
+   public static void main(String[] args){
+   
+   Main class_object = new Main();
+   System.out.println("Number of Fruits: " + class_object.fruit + " " + class_object.num1 );
+   System.out.println("Number of Vegetables: " + class_object.vegetable + " " + class_object.num2 );
+   
+      }
+
+}
+
+```
+This is a simple Java program that creates an instance of the Main class and prints the values of some of its variables.
+
+The Main class has four instance variables: "fruit" which is a string variable with a value "Apples", "vegetable" which is a string variable with a value "Carrots", "num1" which is an integer variable with a value 60 and "num2" which is an integer variable with a value 45.
+
+In the main method, an instance of the Main class is created using the new keyword, named 'class_object'. The program then uses the "System.out.println" method to output two messages, the first one is "Number of Fruits: Apples 60" and the second one is "Number of Vegetables: Carrots 45". The first message is composed by concatenating the string "Number of Fruits: " with the value of the "fruit" variable and the value of the "num1" variable using the + operator, the second message is composed by concatenating the string "Number of Vegetables: " with the value of the "vegetable" variable and the value of the "num2" variable using the + operator.
+
+It's important to note that, the variables are instance variables and they are not static, so, in this case, the program creates an instance of the Main class to access those variables.
+
+### classes.java
+**Code:**
+```Java
+public class Main{
+ int x = 100;
+
+   public static void main(String[] args){
+   
+     
+    Main class_object = new Main();
+    Main class_object_2 = new Main();
+    System.out.println(class_object.x);
+    System.out.println(class_object.x);
+   
+   }
+}
+```
+This is a Java program that creates two instances of the Main class and prints the value of the variable 'x' of one of the instances. The variable x is declared as an instance variable of the Main class and is assigned an initial value of 100.
+
+In the main method, two instances of the Main class are created using the new keyword, one is named 'class_object' and the other is named 'class_object_2'.
+
+Then the program uses the "System.out.println" method to output the value of the x variable of the 'class_object' instance, which is 100 and prints it again.
+
+Since the variable x is an instance variable, it has a different value for each object, but in this case, the value of the variable is the same for both instances of the Main class and it is not modified inside the main method, so the two System.out.println lines will print the same value, which is 100.
+
+---
+
