@@ -134,6 +134,7 @@ Also, to make this class more usable, you may want to add methods to insert and 
 
 ---
 
+
 ### Compute_CircleArea.java
 **Code:**
 ```Java
@@ -171,6 +172,7 @@ public class Main {
    double Area;
    double pi;
    
+   
    pi = 3.14159;
    
    System.out.println("Enter radius: ");
@@ -186,6 +188,7 @@ public class Main {
 This Java program calculates the area of a circle based on user input. The program uses the Scanner class to take input from the user. The variable "r" is used to store the radius of the circle entered by the user, "pi" is used to store the value of pi (3.14159 in this case), and "Area" is used to store the calculated area of the circle (r*r * pi). The program first prompts the user to "Enter radius: " and then assigns the value entered by the user to the variable "r" using the nextDouble() method of the Scanner class. Then it calculates the area of the circle and prints the message "Area of a Circle is" followed by the calculated area of the circle using the "System.out.println" method.
 
 ---
+
 ### Compute_mean_input.java
 **Code:**
 
@@ -202,7 +205,7 @@ public class Main {
     int mean = (num1+num2+num3)/3;
     System.out.println("The mean value is:  " +mean);
     
-        
+       
    }
 
 }
@@ -221,7 +224,6 @@ This Java program calculates the mean of three integers entered by the user. The
 import java.applet.Applet;
 import java.awt.Graphics;
 
-
 public class Ducky extends JApplet
 {
 	// Overriding paint() method
@@ -230,11 +232,13 @@ public class Ducky extends JApplet
 	{
 		g.drawString("Hello World", 20, 20);
 	}
-	 
+	
 }
 
 ```
 This is a Java applet program that displays the message "Hello World" on the screen. The program is a subclass of the Applet class, which is a built-in Java class for creating applets. The program overrides the paint() method of the Applet class, which is called automatically when the applet is run. Inside the paint() method, the program uses the drawString() method of the Graphics class to display the message "Hello World" at the coordinates (20, 20) on the screen. The program extends JApplet class, JApplet is a class from javax.swing package that you can use to create an Applet, but it is not the only way to create an Applet.
+
+---
 
 ### classes.java
 **Code:**
@@ -325,4 +329,149 @@ Then the program uses the "System.out.println" method to output the value of the
 Since the variable x is an instance variable, it has a different value for each object, but in this case, the value of the variable is the same for both instances of the Main class and it is not modified inside the main method, so the two System.out.println lines will print the same value, which is 100.
 
 ---
+### condtions.java
+**Code:**
 
+```java
+public class Main {
+  public static void main(String[] args) {
+  
+  if (21 <= 20)
+  {
+  System.out.println(true);
+  } else if (21 >= 21){
+  System.out.println(false);
+  }
+  
+  }
+
+}
+
+```
+This code defines a class "Main" that contains a "main" method. Inside the main method, an "if-else" statement is used to check if 21 is less than or equal to 20. If this evaluates to true, the program prints "true" to the console. If not, it then checks if 21 is greater than or equal to 21, if so it will print "false" to the console.
+
+The if condition will never be true, so the program will only output "false"
+
+---
+
+### for.java
+**Code:**
+
+```java
+public class Main{
+   public static void main(String[] args) {
+    for (int i = 0; i < 10; i++)
+     System.out.println(i);
+     
+     String[] fruits = {"Apple","Banana", "Orange"};
+     for (String i : fruits)
+     System.out.println(fruits);
+    
+      }
+}
+```
+This code defines a class "Main" that contains a "main" method. Inside the main method, there are two for loops. The first for loop uses the variable "i" and iterates from 0 to 9, printing the value of "i" to the console on each iteration.
+
+The second for loop is an enhanced for loop, also known as a "for-each" loop, which is used to iterate over an array or collection. It uses the variable "i" to iterate through the "fruits" array, and on each iteration, it prints the value of "i" to the console.
+
+However, the second for loop, the print statement is using System.out.println(fruits); instead of System.out.println(i); which will print the whole array ["Apple","Banana", "Orange"] in each iteration instead of the current element.
+
+---
+
+### forbreak.java
+**Code:**
+```java
+public class Main{
+  public static void main(String[] args){
+
+int i = 0;
+while (i < 10) {
+  if (i == 4) {
+    i++;
+    continue;
+  }
+  System.out.println(i);
+  i++;
+}
+}
+
+}
+```
+This code defines a class "Main" that contains a "main" method. Inside the main method, there is a "while" loop. The loop uses the variable "i" as the loop counter and it starts with the value of 0. The loop continues to execute as long as the value of "i" is less than 10.
+
+Inside the loop, there is an "if" statement that checks if the value of "i" is equal to 4. If this evaluates to true, the program increases the value of "i" by 1 and then uses the "continue" statement to skip the rest of the current iteration of the loop, and move to the next iteration.
+
+If the value of "i" is not equal to 4, the program will print the value of "i" to the console and then increase the value of "i" by 1.
+
+In summary, this program will print the numbers from 0 to 9 to the console, except for the number 4, which will be skipped.
+
+---
+
+### forloop.java
+**Code:**
+
+```java
+public class Main{
+   public static void main(String[] args) {
+         
+     String[] fruits = {"Apple","Banana", "Orange"};
+     for (String i : fruits)
+     System.out.println(fruits);
+       
+   }
+}
+
+```
+This code defines a class "Main" that contains a "main" method. Inside the main method, there's an enhanced for loop, also known as a "for-each" loop, which is used to iterate over an array or collection.
+It uses the variable "i" to iterate through the "fruits" array, and on each iteration, it prints the whole array ["Apple","Banana", "Orange"] using the statement System.out.println(fruits);. The current element 'i' is not being used inside the print statement.
+
+It will print the same array 3 times on the console, instead of the current element of the array which is the expected output, to print the current element you should use System.out.println(i);
+
+---
+
+### forloop_2.java
+**Code:**
+```java
+public class Main {
+	public static void main(String[] args){
+	for (int k = 0; k < 5; k++ )
+		System.out.println("numbers"  +k);
+		
+	}
+}
+
+```
+This code defines a class "Main" that contains a "main" method. Inside the main method, there is a for loop that uses the variable "k" as a loop counter. The loop starts with the value of "k" as 0 and continues to execute as long as "k" is less than 5.
+On each iteration, it prints the string "numbers" concatenated with the current value of k using the statement System.out.println("numbers" +k);. So the output will be "numbers0", "numbers1", "numbers2", "numbers3" and "numbers4"
+
+This program will print the numbers from 0 to 4 on the console with the string "numbers" before each number.
+
+---
+
+### forloop_MathAdd.java
+**Code:**
+```java
+public class Main {
+	public static void main(String[] args){
+	
+	int add = 0;
+	for (int k = 0; k < 5; k++ ){
+			
+		add = add + k;
+	
+	}
+
+	System.out.println("numbers: "  +add);
+	}
+}
+
+```
+This code defines a class "Main" that contains a "main" method. Inside the main method, there is a for loop that uses the variable "k" as a loop counter. The loop starts with the value of "k" as 0 and continues to execute as long as "k" is less than 5.
+
+There's an integer variable add initialized with 0, and on each iteration of the loop, the current value of "k" is added to the add variable using the statement add = add + k;
+
+After the for loop, the program prints the final value of the add variable concatenated with the string "numbers: " using the statement System.out.println("numbers: " +add);.
+
+This program will print the sum of numbers from 0 to 4 on the console with the string "numbers: " before the sum. The sum would be 10.
+
+---
