@@ -131,6 +131,9 @@ There is an issue with the print method though. The for loop is using "in" inste
         }
 ```
 Also, to make this class more usable, you may want to add methods to insert and remove elements from the array, and also a way to access the elements by index.
+
+---
+
 ### Compute_CircleArea.java
 **Code:**
 ```Java
@@ -167,7 +170,6 @@ public class Main {
    double r;
    double Area;
    double pi;
-   
    
    pi = 3.14159;
    
@@ -294,6 +296,8 @@ The Main class has four instance variables: "fruit" which is a string variable w
 In the main method, an instance of the Main class is created using the new keyword, named 'class_object'. The program then uses the "System.out.println" method to output two messages, the first one is "Number of Fruits: Apples 60" and the second one is "Number of Vegetables: Carrots 45". The first message is composed by concatenating the string "Number of Fruits: " with the value of the "fruit" variable and the value of the "num1" variable using the + operator, the second message is composed by concatenating the string "Number of Vegetables: " with the value of the "vegetable" variable and the value of the "num2" variable using the + operator.
 
 It's important to note that, the variables are instance variables and they are not static, so, in this case, the program creates an instance of the Main class to access those variables.
+
+---
 
 ### classes.java
 **Code:**
