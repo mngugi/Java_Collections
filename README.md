@@ -1,5 +1,5 @@
 ## Welcome to the Learn-Java- wiki!
-## Installing Eclipse on Linux:
+## Installing Eclipse on Linux- Debian, Fedora-Red Hat:
 ```
 sudo dnf install -y java-17-openjdk-devel
 java -version
