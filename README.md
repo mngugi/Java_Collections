@@ -1,24 +1,24 @@
 ## Welcome to the Learn-Java- wiki!
 ## Installing Eclipse on Linux:
 ```
-`sudo dnf install -y java-17-openjdk-devel`
-`java -version`
+sudo dnf install -y java-17-openjdk-devel
+java -version
 ```
 **Output**
 ```
-`openjdk version "17.0.3" 2022-04-19`
-`OpenJDK Runtime Environment 21.9 (build 17.0.3+7)`
-`OpenJDK 64-Bit Server VM 21.9 (build 17.0.3+7, mixed mode, sharing)`
+openjdk version "17.0.3" 2022-04-19
+OpenJDK Runtime Environment 21.9 (build 17.0.3+7)
+OpenJDK 64-Bit Server VM 21.9 (build 17.0.3+7, mixed mode, sharing)
 ```
 ```
-`wget https://mirror.umd.edu/eclipse/oomph/epp/2022-03/R/eclipse-inst-jre-linux64.tar.gz`
+wget https://mirror.umd.edu/eclipse/oomph/epp/2022-03/R/eclipse-inst-jre-linux64.tar.gz
 ```
 ```
-`tar -xzvf eclipse-inst-jre-linux64.tar.gz`
+tar -xzvf eclipse-inst-jre-linux64.tar.gz
 ```
 ```
-`cd eclipse-installer/`
-`./eclipse-inst`
+cd eclipse-installer/
+./eclipse-inst
 ```
 ### Arr.java
 **Code:**
