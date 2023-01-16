@@ -1,5 +1,5 @@
 ## Welcome to the Learn-Java- wiki!
-## Installing Eclipse on Linux- Debian (use apt for dnf), Fedora/Red Hat:
+## Installing Eclipse on Linux- Debian (use apt for dnf), Fedora/Red Hat -> Distros:
 ```
 sudo dnf install -y java-17-openjdk-devel
 java -version
@@ -20,7 +20,7 @@ tar -xzvf eclipse-inst-jre-linux64.tar.gz
 cd eclipse-installer/
 ./eclipse-inst
 ```
-## Installing Apache NetBeans IDE using snap Fedora:
+## Installing Apache NetBeans IDE using snap ->  Fedora Distro:
 ```Html
 sudo dnf install snapd
 sudo ln -s /var/lib/snapd/snap /snap
