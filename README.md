@@ -1095,4 +1095,340 @@ So when the program is executed, it will print "int answer: 9" and "double answe
 
 ---
 
+### Recursion.java
+**Code:**
 
+```Java
+public class Main {
+    public static void main(String[] args){
+     int result = sum(10);
+     System.out.println(result);
+    
+        }
+        
+    public static int sum(int num) {
+      if (num > 0) {
+         return num + sum(num -1);
+      } else {
+        return 0;
+      
+      }
+    
+    }    
+}
+
+```
+This Java code defines a class "Main" with a main method that calls the method "sum" with an argument of 10. The "sum" method takes an integer as an argument and returns the sum of all positive integers up to the input integer using recursion. If the input integer is 0 or negative, it returns 0. The result of the "sum" method is printed to the console.
+
+---
+
+### Scope.java
+**Code:**
+
+```Java
+public class Main {
+        public static void main(String[] args){
+        
+        int numA = 1000;
+        System.out.println(numA);
+        }
+}
+
+```
+This Java code defines a class "Main" with a main method that declares an integer variable "numA" with the value 1000 and then prints the value of "numA" to the console. The program will output "1000".
+
+---
+
+### numbers.java
+**Code:**
+
+```Java
+public class main {
+   public static void main(String[] args) {
+      System.out.println(6);
+      System.out.println(623);
+      System.out.println(6);
+      System.out.println(6+623);
+      System.out.println(6*623);
+      int numA = 60023;
+      int numB = 623;
+      
+      System.out.println(numA);
+      System.out.println(numB);
+      System.out.println(numA/numB);
+      
+   }
+}
+
+```
+
+This Java code defines a class "main" with a main method that performs several operations and outputs the results to the console. The operations include:
+
+    Printing the integer value 6
+    Printing the integer value 623
+    Printing the integer value 6 again
+    Printing the result of 6 + 623
+    Printing the result of 6 * 623
+    Declaring two integer variables "numA" with the value 60023 and "numB" with the value 623
+    Printing the values of "numA" and "numB"
+    Printing the result of "numA" divided by "numB".
+
+The program will output the results of these operations in the order they are performed.
+
+---
+
+### oddnumber_example.java
+**Code:**
+
+```java
+import java.util.Scanner;
+public class Main {
+        public static void main(String args[]){
+        
+        int number;
+        Scanner input = new Scanner(System.in);
+        number = input.nextInt();
+        
+        if(number % 2== 0)
+                System.out.println(number+ " Number is even");
+        else
+                System.out.println(number+ " Odd number");
+        
+     }
+
+}
+
+
+```
+This Java code defines a class "Main" with a main method that takes in an integer input from the user and determines whether the input is an even or odd number. The code uses a Scanner object to read the input and the nextInt() method to read an integer from the input stream. Then, it uses the modulo operator % to check if the input number is divisible by 2. If the remainder is 0, it prints "Number is even". Otherwise, it prints "Odd number".
+
+### strings.java
+**Code:**
+
+```java
+public class Main{
+   public static void main(String[] args){
+   
+   String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+   System.out.println("Characters : " + characters);
+   System.out.println("Character count: " + characters.length());
+      
+   }
+
+}
+
+```
+
+This Java code defines a class "Main" with a main method that creates a string variable "characters" that contains the uppercase alphabets from A to Z. Then it prints the value of the string "characters" and the length of the string using the length() method. The program will 
+
+**output:**
+```java
+
+Characters: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Character count: 26
+
+```
+### switch.java
+**Code:**
+
+```Java
+public class Main {
+   public static void main(String[] args)
+   {
+    int day = 7;
+    switch (day){
+    
+    case 1 :
+     System.out.println("Monday");
+     break; 
+    case 2 :
+     System.out.println("Tuseday"); 
+     break; 
+    case 3 :
+     System.out.println("Wednesday");
+     break; 
+    case 4 :
+     System.out.println("Thusrday");  
+     break; 
+    case 5 :
+     System.out.println("Friday");
+     break; 
+    case 6 :
+     System.out.println("Satureday"); 
+     break; 
+    case 7:
+     System.out.println("Sunday");
+    break;  
+         
+    }
+   
+   }
+}
+
+```
+
+This Java code defines a class "Main" with a main method that declares an integer variable day with the value 7. Then it uses a switch statement to match the value of day with various cases. If the value of day is 1, it outputs "Monday", if it's 2, it outputs "Tuesday", and so on, up to case 7 which outputs "Sunday". The break statements are used to exit the switch statement after a case has been executed. In this example, the program will output:
+
+**Output:**
+`Sunday`
+
+
+### switch_example.java
+**Code:**
+
+```java
+public class Main{
+enum Foods {
+Fruits,
+Meat,
+Cereals,
+Vegitables
+
+}
+
+        public static void main(String[] args){
+                Foods food_types = Foods.Meat;
+                
+                switch(food_types){
+                case Fruits:
+                        System.out.println("Fruits\n Apple\n Banana\n Oranga\n");
+                        break;
+                case Meat:
+                        System.out.println("Meat\n Pork\n Beef\n Fish\n");
+                        break;        
+                case Vegitables:
+                        System.out.println("Vegis\n Kare\n Cabagges\n Carrots\n");
+                        break;  
+                }
+        
+        }
+        
+    }
+
+```
+This Java code defines a class "Main" that uses an enumeration Foods to declare 4 constant values Fruits, Meat, Cereals, and Vegetables. The main method of the class creates a variable food_types of type Foods and assigns the value Foods.Meat to it. Then, it uses a switch statement to match the value of food_types with the constant values in the enumeration. If the value of food_types is Fruits, it outputs "Fruits\n Apple\n Banana\n Oranga\n", if it's Meat, it outputs "Meat\n Pork\n Beef\n Fish\n", and so on. The break statements are used to exit the switch statement after a case has been executed. In this example, the program will output:
+
+```Java
+Meat
+ Pork
+ Beef
+ Fish
+
+```
+
+### type-casting.java
+**Code:**
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);      // Outputs 9
+    System.out.println(myDouble);   // Outputs 9.0
+    
+    double numDouble = 9.78d;
+    int num = (int) numDouble;
+    
+    System.out.println(numDouble);      // 
+    System.out.println(num); 
+  }
+}
+
+```
+
+This program declares two variables, one integer (myInt) and one double (myDouble). The integer is assigned the value 9, and then the value of myInt is automatically casted to double and assigned to myDouble.
+
+The program then outputs the values of both myInt and myDouble, with the output for myInt being 9 and the output for myDouble being 9.0.
+
+Next, the program declares another double (numDouble) and assigns it the value 9.78d, and then casts it to int and assigns it to the integer variable num.
+
+The program then outputs the values of numDouble and num, with the output for numDouble being 9.78 and the output for num being 9.
+
+Overall, this program demonstrates how automatic casting works in Java, and how casting can be used to convert one data type to another.
+
+---
+
+### types.java
+**Code:**
+
+```Java
+public class Main {
+   public static void main(String[] args){
+   
+   int num= 10000000;
+   long numL = 15000L;
+   float numF = 53e3f;
+   double numD = 12e002;
+   
+   System.out.println(numD);
+   System.out.println(numF);
+   System.out.println(num);
+   System.out.println(numL);
+      
+   }
+
+}
+
+```
+
+This program defines 4 different types of numbers, num, numL, numF and numD and prints their values.
+
+The num is an integer with a value of 10000000. The numL is a long with a value of 15000.
+The numF is a float with a value of 53000.0. The numD is a double with a value of 12000.0.
+
+The program outputs:
+
+```
+12000.0
+53000.0
+10000000
+15000
+
+```
+### volume-cylinder_input.java
+**Code:**
+
+```java
+import java.util.Scanner; 
+
+public class Main{
+   public static void main(String[] args){
+   Scanner input = new Scanner(System.in);
+   double pi = 3.1456;
+   int radius = input.nextInt();
+   int length = input.nextInt();
+   double Area = pi * (radius * radius);
+   double Volume = Area * length;
+   
+   System.out.println("Enter the radius of a Cylinder: " +radius);
+   System.out.println("Enter the length of a Cylinder: " +length);
+   System.out.println("Area of the Cylinder is: " +Area);
+   System.out.println("Volume of the Cylinder is: " +Volume);
+     
+   }
+}
+
+```
+This program is a simple implementation of finding the area and volume of a cylinder using the radius and length inputs given by the user. The values are calculated using the formulas for the area of a circle (Pi * r^2) and the volume of a cylinder (Area * Length). The results are then printed out to the console.
+
+### while.java
+**Code:**
+
+```Java
+
+public class Main{
+   public static void main(String[] args){
+   int i = 0;
+   while (i < 10) {
+   System.out.println(i);
+   i++;
+   }
+   
+  }
+}
+```
+This is a Java program that prints the numbers from 0 to 9. The while loop continues to execute until the value of the variable i is less than 10. On each iteration, the value of i is incremented by 1, and the current value of i is printed to the console.
+
+---
