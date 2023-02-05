@@ -1432,3 +1432,57 @@ public class Main{
 This is a Java program that prints the numbers from 0 to 9. The while loop continues to execute until the value of the variable i is less than 10. On each iteration, the value of i is incremented by 1, and the current value of i is printed to the console.
 
 ---
+## Objects 
+### Example volume_cylinder_input.java and Calc_volume.java 
+ 
+**Code:**
+
+```Java
+package cone;
+/*
+ * A java program that calculates the volume  of a circular cone
+ * Mathematical formula is : V = pi*r^2*(h/3)
+ * 
+ * */
+public class Cone_volume {
+	
+
+		public double radius = 4;
+		public int height= 4 ;
+		
+		public Cone_volume() {
+					
+		}
+		public Cone_volume(double radius) {
+			this.radius = radius;
+			
+		}
+		public Cone_volume(int height) {
+			this.height = height;
+			
+			
+		}
+		public double getVolume() {
+			
+		double volume = Math.PI * radius*radius * height/3 ;
+			
+			return volume;
+		}	
+	}
+
+
+package cone;
+
+public class Calc_volume {
+
+	public static void main(String[] args) {
+		Cone_volume volume1 = new Cone_volume();
+		System.out.println("Cone Radius: " +volume1.radius + "\nCone Volume: " +volume1.getVolume());
+
+	}
+
+}
+
+```
+This Java program calculates the volume of a circular cone. It uses the mathematical formula "V = pi * r^2 * (h/3)" to calculate the volume, where "pi" is the mathematical constant pi, "r" is the radius of the base of the cone, and "h" is the height of the cone. The program has two classes, "Cone_volume" and "Calc_volume". The "Cone_volume" class contains the method for calculating the volume and stores the radius and height of the cone. The "Calc_volume" class has the main method which creates an object of the "Cone_volume" class, sets the radius and height, and calculates the volume of the cone by calling the "getVolume()" method. The calculated volume is then printed to the console.
+
