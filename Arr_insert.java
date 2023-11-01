@@ -1,3 +1,6 @@
+
+// java code to create and insert arrays
+
 import java.util.Arrays;
 import java.util.List;
 
