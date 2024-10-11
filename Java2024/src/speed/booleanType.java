@@ -17,6 +17,9 @@ public class booleanType {
 		temperature = -204;
 		
 		System.out.println(temperature);
+		
+		int range_1 = -4250000;
+		System.out.println(range_1);
 	}
 
 }
