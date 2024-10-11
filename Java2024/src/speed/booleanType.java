@@ -23,6 +23,10 @@ public class booleanType {
 		
 		long range_long = -4230000L;
 		System.out.println(range_long);
+		
+		double num = -96.3;
+		System.out.println(num);
+				
 	}
 
 }
