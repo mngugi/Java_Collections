@@ -26,6 +26,9 @@ public class booleanType {
 		
 		double num = -96.3;
 		System.out.println(num);
+		
+		float number = -52.12f;
+		System.out.print(number);
 				
 	}
 
