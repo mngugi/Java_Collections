@@ -28,7 +28,11 @@ public class booleanType {
 		System.out.println(num);
 		
 		float number = -52.12f;
-		System.out.print(number);
+		System.out.print(number + '\n');
+		
+		char code = '\u0041';
+		System.out.print(code);
+				
 				
 	}
 
