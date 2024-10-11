@@ -20,6 +20,9 @@ public class booleanType {
 		
 		int range_1 = -4250000;
 		System.out.println(range_1);
+		
+		long range_long = -4230000j;
+		System.out.println(range_long);
 	}
 
 }
