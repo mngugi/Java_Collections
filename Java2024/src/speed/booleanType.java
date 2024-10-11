@@ -36,6 +36,9 @@ public class booleanType {
 		
 		char letter2 = 65;
 	    System.out.println(letter2);
+	    
+	    String stringo = "ni ma stingo";
+	    System.out.print(stringo);
 				
 				
 	}
