@@ -33,6 +33,9 @@ public class booleanType {
 		System.out.println(" ");
 		char code = '\u0041';
 		System.out.print(code);
+		
+		char letter2 = 65;
+	    System.out.println(letter2);
 				
 				
 	}
