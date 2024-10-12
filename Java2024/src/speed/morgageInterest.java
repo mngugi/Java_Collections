@@ -13,7 +13,7 @@ public class morgageInterest {
 		
 		morgageInterest morgage = new morgageInterest();
 	
-	System.out.println("Morgage Interest for " + morgage.NAME + " "+  morgage.INTEREST);
+	System.out.println("Morgage Interest for " + morgage.NAME +" "+ "is : "+  morgage.INTEREST);
 	
 	}
 	
