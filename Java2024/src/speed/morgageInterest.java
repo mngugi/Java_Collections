@@ -5,7 +5,10 @@ public class morgageInterest {
 	String NAME = "Tom Dick Harry";
 	double BALANCE = 520000.00;
 	double RATE = 0.12;
-	double INTEREST;
+	double INTEREST = BALANCE * RATE ;
+	
+	System.out.println(INTEREST);
 	
 
 }
+
