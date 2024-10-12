@@ -7,8 +7,17 @@ public class morgageInterest {
 	double RATE = 0.12;
 	double INTEREST = BALANCE * RATE ;
 	
-	System.out.println(INTEREST);
+	public static void main(String[] args) {
+		
+		
+		
+		morgageInterest morgage = new morgageInterest();
+	
+	System.out.println("Morgage Interest for " + morgage.NAME + " "+  morgage.INTEREST);
+	
+	}
 	
 
 }
+
 
