@@ -21,6 +21,12 @@ public class AritmetricOperators {
 		var = i;
 		System.out.println("var using =: " + var);
 		
+		var =+ j;
+		System.out.println("var using =: " + var);
+		
+		var *= i;
+		System.out.println("var using =: " + var);
+		
 	}
 
 }
