@@ -4,6 +4,7 @@ public class AritmetricOperators {
 	public static void main(String[] args) {
 		// declare variables
 		int i = 56, j = 20;
+		int var;
 		
 		//Addition 
 		System.out.println("i+j=  " + (i+j));
@@ -15,6 +16,10 @@ public class AritmetricOperators {
 		System.out.println("i/j=  " + (i/j));
 		// Modulo
 		System.out.println("i%j=  " + (i%j));
+		
+		// Assignment operators
+		var = i;
+		System.out.println("var using =: " + var);
 		
 	}
 
