@@ -5,8 +5,17 @@ public class AritmetricOperators {
 		// declare variables
 		int i = 56, j= 20;
 		
-		//addition 
+		//Addition 
 		System.out.println("i+j  " + (i+j));
+		// Subtraction
+		System.out.println("i-j  " + (i-j));
+		// Multiplication
+		System.out.println("i*j  " + (i*j));
+		// Division 
+		System.out.println("i/j  " + (i/j));
+		// Modulo
+		System.out.println("i%j  " + (i%j));
+		
 	}
 
 }
