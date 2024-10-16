@@ -6,7 +6,14 @@ public class IncrementDecrement {
 		int result1, result2;
 		
 		System.out.println("Value of i: " + i);
+		
 		result1 = ++i;
+		System.out.println("Value of increment: " + result1);
+		
+		System.out.println("Value of j: " + j);
+		
+		result2 = ++j;
+		System.out.println("Value of increment: " + result2);
 		
 	}
 			
