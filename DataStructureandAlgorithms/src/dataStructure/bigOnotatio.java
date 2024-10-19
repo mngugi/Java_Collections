@@ -1,3 +1,4 @@
+//program prints an array of integers and prints the first integer on the array.
 package dataStructure;
 
 public class bigOnotatio {
