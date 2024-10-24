@@ -9,6 +9,7 @@ public class defineArray {
 		names[2] = "mutego kushika";
 		names[3] = "kanyundo kupiga";
 		System.out.println(Arrays.toString(names));
+		System.out.println(" Size of the array is: " + names.length);
 	}
 
 }
