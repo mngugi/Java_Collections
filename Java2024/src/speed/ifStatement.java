@@ -7,12 +7,14 @@ public class ifStatement {
 		// if number is j is greater than i
 		
 		if (j >= i) {
-			System.out.println("J is greater than i value");
+			System.out.println("j has a greater than i value");
 		
-	   }
+	}
 		
-			
-	}	
+			System.out.println("i has the greater value");
+		
 
+
+}
 
 }
