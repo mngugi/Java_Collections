@@ -9,7 +9,7 @@ public class ifStatement {
 		if (j >= i) {
 			System.out.println("J is greater than i value");
 		
-	}
+	   }
 		
 			
 	}	
