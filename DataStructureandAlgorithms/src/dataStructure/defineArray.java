@@ -1,4 +1,5 @@
 package dataStructure;
+import java.util.Arrays;
 
 public class defineArray {
 	public static void main(String[] args) {
