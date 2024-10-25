@@ -1,7 +1,7 @@
 package dataStructure;
 
 public class findNumber {
-	public static void main(int[] args) {
+	public static void main(String[] args) {
 		
 		int[] numbers = {3,1,2,3,0};
 		
