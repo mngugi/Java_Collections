@@ -5,7 +5,7 @@ public class findNumber {
 		
 		int[] numbers = {3,1,2,3,0};
 		
-		int targetNumber = 7;
+		int targetNumber = 0;
 		boolean found = false;
 		
 		for (int number:numbers) {
