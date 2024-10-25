@@ -5,8 +5,8 @@ public class findNumber {
 		
 		int[] numbers = {3,1,2,3,0};
 		
-		int targetNumber = 3;
-		boolean found = true;
+		int targetNumber = 7;
+		boolean found = false;
 		
 		for (int number:numbers) {
 			if(numbers.equals(targetNumber)) {
