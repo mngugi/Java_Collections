@@ -1,5 +1,4 @@
 package dataStructure;
-import arrays.*;
 
 public class findNumber {
 	public static void main(int[] args) {
@@ -17,7 +16,15 @@ public class findNumber {
 			}
 		}
 		
+		if(found) {
+			System.out.println("Number is found:");
+		} else {
+				System.out.println("Number not found");
+				
+			}
+			
+		 }
 		
 	}
 
-}
+
