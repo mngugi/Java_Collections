@@ -8,7 +8,7 @@ public class ifjava {
 			System.out.println("The number is negative.");
 		}
 
-		    System.out.print("Ststement outside the block.");
+		    System.out.print("Statement outside the block.");
 	}
 
 }
