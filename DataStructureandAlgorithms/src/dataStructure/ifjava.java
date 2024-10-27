@@ -12,7 +12,7 @@ public class ifjava {
 		    System.out.print("Statement outside the block.");
 	
 		if(top == "first") {
-			System.out.print("Top is the first one in the stack");
+			System.out.print("Top is the first one in the stack.");
 			
 		}
 
