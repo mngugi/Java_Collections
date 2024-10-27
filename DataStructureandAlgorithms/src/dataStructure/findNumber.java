@@ -1,6 +1,7 @@
 package dataStructure;
 
 public class findNumber {
+	@SuppressWarnings("unlikely-arg-type")
 	public static void main(String[] args) {
 		
 		int[] numbers = {3,1,2,3,0};
@@ -8,7 +9,7 @@ public class findNumber {
 		int targetNumber = 0;
 		boolean found = false;
 		
-		for (int number:numbers) {
+		for (@SuppressWarnings("unused") int number:numbers) {
 			if(numbers.equals(targetNumber)) {
 				found = true;
 				break;
