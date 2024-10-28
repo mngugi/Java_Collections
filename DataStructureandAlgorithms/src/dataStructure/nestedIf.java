@@ -15,7 +15,7 @@ public class nestedIf {
 			System.out.println("Lager number is " + num2);
 		}
 		
-		else if (num2 >= num3) {
+		if (num2 >= num3) {
 			System.out.println("Lager number is " + num2);
 		}
 	}
