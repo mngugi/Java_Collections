@@ -11,7 +11,13 @@ public class nestedIf {
 			System.out.println("Larger number is" + largest_number );
 			
 		}
-			
+		else {
+			System.out.println("Lager number is " + num2);
+		}
+		
+		else if (num2 >= num3) {
+			System.out.println("Lager number is " + num2);
+		}
 	}
 
 }
