@@ -19,6 +19,9 @@ public class ifjava {
 			System.out.println("The String variable is not allocated to a value.");
 			
 		}
+		else {
+			System.out.println("Close the Program.");
+		}
 
  }
 }
