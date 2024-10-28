@@ -11,8 +11,12 @@ public class ifjava {
 
 		    System.out.print("Statement outside the block.");
 	
-		if(top == "first") {
+		if(top == " ") {
 			System.out.print("Top is the first one in the stack.");
+			
+		}
+		else if(top.isBlank()){
+			System.out.println("The String variable is not allocated to a value.");
 			
 		}
 
