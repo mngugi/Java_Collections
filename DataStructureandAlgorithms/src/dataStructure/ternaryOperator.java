@@ -8,7 +8,7 @@ public class ternaryOperator {
 		double marks = input.nextDouble();
 		
 		String results = (marks >= 40)? "pass" : "fail";
-		System.out.println("Exam" + results);
+		System.out.println("Exam " + results);
 		input.close();
 	}
 
