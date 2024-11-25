@@ -1,3 +1,4 @@
+// a program that creates a constructor
 public class Main {
 
 String construct;
