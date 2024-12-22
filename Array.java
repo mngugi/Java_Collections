@@ -1,3 +1,4 @@
+// Author Peter Ngugi 
 public class Array {
         private int[] items;
         private int count;
