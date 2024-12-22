@@ -1,3 +1,4 @@
+// Author Peter Ngugi 
 package Bank;
 
 public class _bank{
