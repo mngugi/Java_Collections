@@ -1,4 +1,4 @@
-
+// Author Peter Ngugi 
 // java code to create and insert arrays
 
 import java.util.Arrays;
