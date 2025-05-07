@@ -1,4 +1,47 @@
 ## Welcome to the Learn-Java- wiki!
+---
+# 📦 Java Collections Repository
+
+A comprehensive and educational collection of Java code examples and explanations that cover the Java Collections Framework (JCF). This repository is designed to help learners, developers, and interviewees master data structures and algorithms in Java using built-in collections.
+
+---
+
+## 📚 Topics Covered
+
+- ✅ Lists (ArrayList, LinkedList, Vector, Stack)
+- ✅ Sets (HashSet, LinkedHashSet, TreeSet)
+- ✅ Maps (HashMap, TreeMap, LinkedHashMap, Hashtable, WeakHashMap)
+- ✅ Queues and Deques (PriorityQueue, ArrayDeque)
+- ✅ Iterators and Enhanced For-Loops
+- ✅ Sorting and Comparator/Comparable usage
+- ✅ Synchronization and Thread-Safe Collections
+- ✅ Performance Considerations
+- ✅ Practical Use Cases and Code Examples
+
+---
+
+## 🎯 Objective
+
+- Deepen understanding of Java’s powerful Collections API
+- Provide ready-to-run examples for common use cases
+- Prepare for coding interviews and assessments
+- Serve as a reference for writing efficient, maintainable Java code
+
+---
+
+## 🛠️ Technologies Used
+
+- Java (JDK 8+)
+- IntelliJ IDEA / Eclipse (optional)
+- JUnit for simple tests
+
+---
+
+## 📁 Structure
+
+
+---
+
 ## Installing Eclipse on Linux- Debian, Fedora-Red Hat:
 ```
 sudo dnf install -y java-17-openjdk-devel
