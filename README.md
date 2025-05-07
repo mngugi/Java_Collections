@@ -41,7 +41,38 @@ A comprehensive and educational collection of Java code examples and explanation
 
 
 ---
+# 🧠 Data Structures in Java
 
+This repository contains a rich collection of **Java-based implementations of classic data structures**. It is designed to help learners, students, and software developers understand the inner workings of core data structures from scratch — **no library shortcuts**!
+
+---
+
+## 📚 What's Inside
+
+| Category        | Structures Included                                                                 |
+|----------------|---------------------------------------------------------------------------------------|
+| Linear DS       | Array, Linked List (Singly & Doubly), Stack, Queue, Circular Queue                  |
+| Non-Linear DS   | Trees (Binary, BST), Graphs (Adjacency Matrix/List), Heaps                          |
+| Hashing         | Hash Tables, Custom HashMap                                                         |
+| Advanced Topics | Tries, Disjoint Sets, Graph Traversals (BFS, DFS), Tree Traversals (Inorder, etc.)  |
+| Sorting         | Bubble Sort, Merge Sort, Quick Sort, Heap Sort, Insertion Sort                      |
+| Miscellaneous   | Custom Implementations with Generics, OOP Principles                                |
+
+---
+
+## 🎯 Objective
+
+- Build a strong foundational understanding of data structures using Java
+- Prepare for technical interviews with ready-to-run examples
+- Reinforce algorithmic thinking and time-space complexity analysis
+- Practice writing reusable and scalable code in Java
+
+---
+
+## 🗂️ Repository Structure
+
+
+***
 ## Installing Eclipse on Linux- Debian, Fedora-Red Hat:
 ```
 sudo dnf install -y java-17-openjdk-devel
