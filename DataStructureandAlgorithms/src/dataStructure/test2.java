@@ -10,7 +10,11 @@ public class ImageEx
         ImageEx obj = new ImageEx();
         // Change index to see different images in the array!
         // Can you have it pick out a random image?
-        int index = 0;
+        int index = (int)(Math.random() * images.length);
+
+
+
+
         obj.printHTMLimage(images[index]);
     }
 
