@@ -55,7 +55,7 @@ public class Countries
         System.out.println("File names " + filenames[index]);
 
         //Countries obj = new Countries();
-       obj.printHTMLimage( images[index] );
+       obj.printHTMLimage(filenames[index] );
 
 
 
